@@ -4,24 +4,24 @@ class App extends Component {
   state = {
     questions: [
       {
-        id: 1, question: "Co Ania lubi najbardziej wieczorem?", answerA: 'owocki', answerB: 'lody',
-        answerC: 'buszindo', answerD: 'wszystkie powyżej', answer: 'wszystkie powyżej'
+        id: 1, question: "Jak nazywa się słynny jarmark, który odbywa się w Gdańsku od ponad 750 lat ?", answerA: 'Jarmark Europa', answerB: 'Jarmark Poznański',
+        answerC: 'Jarmark Warszawski', answerD: 'Jarmark Dominikański', answer: 'Jarmark Dominikański'
       },
       {
-        id: 2, question: 'Dlaczego Anna to ,,Owocowy oszust"?', answerA: 'bo kradnie owoce', answerB: 'bo oszukuje na wadze w sklepie',
-        answerC: 'zalała mixer do szejków', answerD: 'bo je dużo owoców', answer: 'zalała mixer do szejków'
+        id: 2, question: 'Co znaczy słowo "biblion" ?', answerA: 'księgę', answerB: 'bibuła',
+        answerC: 'bibilioteka', answerD: 'krzesło', answer: 'księgę'
       },
       {
-        id: 3, question: "Na czym chciała zjechać Anna ze szczytu góry podczas wycieczki na morskie Oko? ", answerA: 'na nartach', answerB: 'na plecaku',
-        answerC: 'na koniu', answerD: 'gopr ją zniósł', answer: 'na plecaku',
+        id: 3, question: "Posiadał czapkę która czyniła go niewidzialnym , był rzadkim bywalcem olimpu , o kogo chodzi ?", answerA: 'o Hadesa', answerB: 'Pateon',
+        answerC: 'o zeusa', answerD: 'o hermesa', answer: 'o Hadesa',
       },
       {
-        id: 4, question: "Jak nazywa się wioska startowa Anny? ", answerA: 'gaboń', answerB: 'nowy sącz',
-        answerC: 'jaworzno', answerD: 'st hellens', answer: 'jaworzno',
+        id: 4, question: "Pośrednik, stręczyciel nierządu to inaczej:", answerA: 'mastema', answerB: 'krzysiek',
+        answerC: 'rajfur', answerD: 'błazen', answer: 'rajfur',
       },
       {
-        id: 5, question: "wymień zdanie najczęściej powtarzane przez Anne ", answerA: 'misiuuuś zawieziesz mnie do pracy?', answerB: 'misiuuuś pozmywasz naczynia?',
-        answerC: 'misiuuuś zrobisz carbonare?', answerD: 'misiuuuś mamy coś słodkiego? (na wieczór)', answer: 'misiuuuś mamy coś słodkiego? (na wieczór)',
+        id: 5, question: '"Gorąca 20 " to lista przebojów radia : ', answerA: ' Eska', answerB: 'radio zet',
+        answerC: 'trojka', answerD: 'rm fmm', answer: ' Eska',
       },
     ],
     copiedQuestions: null,
@@ -96,11 +96,13 @@ class App extends Component {
       if (this.state.visibleQuiz === true) {
         question = (
           <div className={CSSClass.item}>
-            <p>{this.state.currentQuestion.question}</p>
+            <div className={CSSClass.questionFrame}>
+             <h3 className={CSSClass.question}>{this.state.currentQuestion.question}</h3>
+            </div>
             <div> A)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerA}</button></div>
-            <div> A)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerB}</button></div>
-            <div> A)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerC}</button></div>
-            <div> A)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerD}</button></div>
+            <div> B)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerB}</button></div>
+            <div> C)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerC}</button></div>
+            <div> D)<button onClick={this.checkAnswer} className={CSSClass.button}>{this.state.currentQuestion.answerD}</button></div>
           </div>
         );
         buttonStyle.push(CSSClass.disabledVision);
@@ -120,7 +122,9 @@ class App extends Component {
  
     return (
       <div className={CSSClass.App}>
-        <h1>Mietus Game v1.0</h1>
+        <h1>QUIZ Game
+
+        </h1>
         <button className={buttonStyle.join(' ')} onClick={this.startGame}>zacznij gre</button>
         {/* <button onClick={this.checkInTime}>consoleLog</button> */}
         {question}

@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+.item
+{
+    border:2px solid black;
+    width:50%;
+    margin: auto;
+    padding: 1rem;
+
+}
+.button
+{
+    width: 70%;
+    height: 3rem;
+    margin:1rem;
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+}
+
+.StartButton
+{
+  font-size:2rem;
+
+}
+
+.disabledVision
+{
+  display:none;
+}

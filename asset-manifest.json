@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AnnaQuiz/static/css/main.5e046027.chunk.css",
+    "main.css": "/AnnaQuiz/static/css/main.1b782a9e.chunk.css",
     "main.js": "/AnnaQuiz/static/js/main.7d1db3f7.chunk.js",
     "main.js.map": "/AnnaQuiz/static/js/main.7d1db3f7.chunk.js.map",
     "runtime-main.js": "/AnnaQuiz/static/js/runtime-main.21f184af.js",
@@ -8,15 +8,15 @@
     "static/js/2.526c1853.chunk.js": "/AnnaQuiz/static/js/2.526c1853.chunk.js",
     "static/js/2.526c1853.chunk.js.map": "/AnnaQuiz/static/js/2.526c1853.chunk.js.map",
     "index.html": "/AnnaQuiz/index.html",
-    "precache-manifest.287b91f1c1bdba84af8473676483b453.js": "/AnnaQuiz/precache-manifest.287b91f1c1bdba84af8473676483b453.js",
+    "precache-manifest.e507b604fb3d419053ed0c8df5563b12.js": "/AnnaQuiz/precache-manifest.e507b604fb3d419053ed0c8df5563b12.js",
     "service-worker.js": "/AnnaQuiz/service-worker.js",
-    "static/css/main.5e046027.chunk.css.map": "/AnnaQuiz/static/css/main.5e046027.chunk.css.map",
+    "static/css/main.1b782a9e.chunk.css.map": "/AnnaQuiz/static/css/main.1b782a9e.chunk.css.map",
     "static/js/2.526c1853.chunk.js.LICENSE.txt": "/AnnaQuiz/static/js/2.526c1853.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.21f184af.js",
     "static/js/2.526c1853.chunk.js",
-    "static/css/main.5e046027.chunk.css",
+    "static/css/main.1b782a9e.chunk.css",
     "static/js/main.7d1db3f7.chunk.js"
   ]
 }

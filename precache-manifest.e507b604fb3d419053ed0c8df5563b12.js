@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f180db3ccb0b08b2e3a4ddf9f60266b3",
+    "revision": "d567844f1b1561c0af48cba6067de5e1",
     "url": "/AnnaQuiz/index.html"
   },
   {
-    "revision": "02a57ce8cb53b5487b6e",
-    "url": "/AnnaQuiz/static/css/main.5e046027.chunk.css"
+    "revision": "a177718b3b950dcda12b",
+    "url": "/AnnaQuiz/static/css/main.1b782a9e.chunk.css"
   },
   {
     "revision": "911cb6ffb07f65162325",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AnnaQuiz/static/js/2.526c1853.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02a57ce8cb53b5487b6e",
+    "revision": "a177718b3b950dcda12b",
     "url": "/AnnaQuiz/static/js/main.7d1db3f7.chunk.js"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AnnaQuiz/precache-manifest.287b91f1c1bdba84af8473676483b453.js"
+  "/AnnaQuiz/precache-manifest.e507b604fb3d419053ed0c8df5563b12.js"
 );
 
 self.addEventListener('message', (event) => {

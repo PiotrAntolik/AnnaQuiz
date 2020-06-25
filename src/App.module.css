@@ -2,6 +2,10 @@ body
 {
   background-color: gray;
   color:white;
+  
+ 
+  
+ 
 }
 
 button
@@ -11,31 +15,20 @@ button
 
 .App {
   text-align: center;
- 
+
+
 }
 
-
-.item
-{
-    border:2px solid white;
-    border-radius:1rem;
-    width:80%;
-    margin: auto;
-    padding: 1rem;
-
-}
-.button
-{
-    width: 70%;
-    
-    margin:1rem;
-    font-size: 1rem;
-    padding: 1rem;
-    }
 
 .StartButton
 {
   font-size:2rem;
+  border: 1px solid #aaa;
+  border-radius: 2rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -44,18 +37,7 @@ button
   display:none;
 }
 
-.question
-{
-  
-  
-}
 
-.questionFrame
-{
-  min-height: 10rem;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
+
+

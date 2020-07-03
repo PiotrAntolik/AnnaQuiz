@@ -68,4 +68,15 @@
   width: 100%;
 }
 
+.myProgress {
+  width: 100%;
+  background-color: black;
+  
+}
+
+.myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
 

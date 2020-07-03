@@ -34,7 +34,8 @@ class App extends Component {
 
     visibleQuiz: false,
     visibleResult: false,
-
+    
+    counter: 3,
     score: 0,
     click: 0,
     
@@ -54,12 +55,12 @@ class App extends Component {
   {
 
     
-
+    const counter = this.state.counter;
      const currentQuestions = [...this.state.BaseQuestions];
      const emptyArray = [];
    
     const newArray = [];
-    for(let j = 0;j<3;j++)
+    for(let j = 0;j<counter;j++)
     {
       let randomQuestion = currentQuestions[Math.floor(Math.random() * currentQuestions.length)];
       let finded = newArray.find((item)=> item === randomQuestion);
